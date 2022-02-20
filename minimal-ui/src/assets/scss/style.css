@@ -1,0 +1,75 @@
+html {
+  font-family: system-ui, sans-serif;
+}
+iframe {
+  display: none !important;
+}
+body {
+  background: rgb(25 34 66 / 87%);
+  display: grid;
+  grid-template-columns: 1fr;
+  height: 100vh;
+  overflow: hidden;
+  width: 100%;
+}
+.header{
+  margin: 30px auto;
+  position: relative;
+}
+.header-content{
+  padding-top: 20px;
+}
+.wallet-button{
+  margin-right: 10px;
+    position: absolute;
+    right: 0px;
+    top: 0;
+    padding-right: 15px;
+}
+.dice {
+  align-items: center;
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
+  justify-items: center;
+  padding: 50px;
+}
+h1{
+  color: #f59e0b;
+  text-align: center;
+}
+h2{
+  color:goldenrod;
+}
+.enivro{
+  color: #f83232;
+  font-family: cursive;
+}
+.box{
+  justify-content: center;
+  margin: 10px 60px;
+}
+
+button {
+  align-self: center;
+  background-color: #efefef;
+  border: none;
+  color: #333;
+  font-size: 1.25rem;
+  font-weight: 700;
+  justify-self: center;
+  padding: 0.5rem 1rem;
+}
+button:hover {
+  cursor: pointer;
+}
+.deposit{
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 900px) {
+  .dice {
+    perspective: 1300px;
+  }
+}
